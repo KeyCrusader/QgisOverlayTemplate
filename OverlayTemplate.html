@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html class="a4 landscape">
+	<head>
+		<link rel="stylesheet" href="OverlayStyle.css">
+	</head>
+	<body>
+		<div id="app">
+			<locator-item></locator-item>
+			
+			<title-item title="Test Map" subtitle="subtitleeee"></title-item>
+			<metadata-item username="[% @user_full_name %]" datetime="[%format_date(now(), 'dd/MM/yyyy')%]"></metadata-item>
+						
+			<legend-item>
+				<point-item colour="red" text="Incident"></point-item>
+				<line-item colour="red" text="Incident Route"></line-item>
+				<line-item colour="yellow" text="Cover Route"></line-item>
+				<polygon-item colour="cyan" text="Flood Zones"></polygon-item>
+			</legend-item>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+		<script src="Overlay.js"></script>
+	</body>
+</html>

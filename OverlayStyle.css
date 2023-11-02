@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	width: 100%;
+}
+html.a4.portrait {
+	height: 1237px;
+}
+html.a4.landscape {
+	height: 875px;
+}
+html.a3.portrait {
+	height: 100px;
+}
+html.a3.landscape {
+	height: 100px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+	
+	color: black;
+}
+
+div.left {
+	float: left;
+	left: 8px;
+}
+div.right {
+	float: right;
+	right: 8px;
+}
+div.top {
+	top: 8px;
+}
+div.bottom {
+	bottom: 8px;
+}
+
+.card {
+	position: absolute;
+	padding: 8px;
+	border-radius: 4px;
+	background-color: rgba(255,255,255,0.9);
+	border-left: 1px solid #D4D4D4;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+#locatorItem > div {
+	position: absolute; 
+	width: 20px; 
+	height: 20px; 
+	background-color: #ff0000; 
+	border: 1px solid black;
+}
+
+#titleItem > .title {
+	font-size: 28pt;
+}
+#titleItem > .subtitle {
+	font-size: 12pt;
+	padding-left: 8px;
+	padding-top: 4px;
+}
+
+#metadataItem {
+	font-size: 9pt;
+	text-align: right;
+}
+
+#legendItem .item {
+	font-size: 9pt;
+	padding-left: 4px;
+	vertical-align: middle;
+}
+#legendItem .title > td {
+	padding-bottom: 8px;
+}
+
+.dot {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	border: 2px solid #000000;
+	display: inline-block;
+}
+.line {
+	stroke: #000000;
+	stroke-width: 2px;
+}
+.polygon {
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	border: 2px solid #000000;
+	border-radius: 0px;
+}
+
+#legendItem span.red {
+	background-color: #ff3b30;
+}
+#legendItem svg.red {
+	fill: #ff3b30;
+}
+#legendItem span.orange {
+	background-color: #ff9500;
+}
+#legendItem svg.orange {
+	fill: #ff9500;
+}
+#legendItem span.yellow {
+	background-color: #ffcc00;
+}
+#legendItem svg.yellow {
+	fill: #ffcc00;
+}
+#legendItem span.green {
+	background-color: #34c759;
+}
+#legendItem svg.green {
+	fill: #34c759;
+}
+#legendItem span.cyan {
+	background-color: #5ac8fa;
+}
+#legendItem svg.cyan {
+	fill: #5ac8fa;
+}
+#legendItem span.blue {
+	background-color: #007aff;
+}
+#legendItem svg.blue {
+	fill: #007aff;
+}
+#legendItem span.indigo {
+	background-color: #5856d6;
+}
+#legendItem svg.indigo {
+	fill: #5856d6;
+}
+#legendItem span.purple {
+	background-color: #af52de;
+}
+#legendItem svg.purple {
+	fill: #af52de;
+}
+#legendItem span.pink {
+	background-color: #fc89ac;
+}
+#legendItem svg.pink {
+	fill: #fc89ac;
+}
+#legendItem span.brown {
+	background-color: #a2845e;
+}
+#legendItem svg.brown {
+	fill: #a2845e;
+}
+#legendItem span.white {
+	background-color: #ffffff;
+}
+#legendItem svg.white {
+	fill: #ffffff;
+}
+#legendItem span.grey {
+	background-color: #8e8e93;
+}
+#legendItem svg.grey {
+	fill: #8e8e93;
+}
+#legendItem span.black {
+	background-color: #000000;
+}
+#legendItem svg.black {
+	fill: #000000;
+}
