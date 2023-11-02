@@ -30,12 +30,26 @@ const MetadataItem = {
 	},
 	template: `
 		<div :class="side" class="card top" id="metadataItem">
-			<div id="metadata">
-				{{ username }}</br>
-				{{ datetime }}
-			</div>
+			{{ username }}</br>
+			{{ datetime }}
 		</div>
 
+	`
+}
+
+const AttributionItem = {
+	props: {
+		side: {
+			type: String,
+			default: "right"
+		},
+		year: String,
+		license: String
+	},
+	template: `
+		<div :class="side" class="card bottom" id="attributionItem">
+			&copy; Crown copyright and database rights {{ year }} OS {{ license }}
+		</div>
 	`
 }
 
@@ -127,6 +141,7 @@ var app = new Vue({
 	components: {
 		TitleItem,
 		MetadataItem,
+		AttributionItem,
 		LegendItem,
 		PointItem,
 		LineItem,
