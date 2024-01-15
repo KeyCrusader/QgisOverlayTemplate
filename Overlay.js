@@ -26,12 +26,14 @@ const MetadataItem = {
 			default: "right"
 		},
 		username: String,
-		datetime: String
+		datetime: String,
+		scale: String
 	},
 	template: `
 		<div :class="side" class="card top" id="metadataItem">
 			{{ username }}</br>
-			{{ datetime }}
+			{{ datetime }}</br>
+			{{ scale }}
 		</div>
 
 	`
