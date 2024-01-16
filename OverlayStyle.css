@@ -79,10 +79,6 @@ div.bottom {
 	background-color: rgba(0, 0, 0, 0.75);
 }
 
-.big {
-	zoom: 2;
-}
-
 #locatorItem > div {
 	position: absolute; 
 	width: 20px; 
