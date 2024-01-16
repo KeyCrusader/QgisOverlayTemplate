@@ -90,6 +90,9 @@ div.bottom {
 #titleItem > .title {
 	font-size: 28pt;
 }
+#titleItem > .title.big {
+	font-size: 56pt;
+}
 #titleItem > .subtitle {
 	font-size: 12pt;
 	padding-left: 8px;
