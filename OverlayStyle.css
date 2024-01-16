@@ -16,6 +16,24 @@ html.a3.portrait {
 html.a3.landscape {
 	height: 1237px;
 }
+html.a2.portrait {
+	height: 2475px;
+}
+html.a2.landscape {
+	height: 1750px;
+}
+html.a1.portrait {
+	height: 3504px;
+}
+html.a1.landscape {
+	height: 2475px;
+}
+html.a0.portrait {
+	height: 4954px;
+}
+html.a0.landscape {
+	height: 3504px;
+}
 body {
 	margin: 0;
 	padding: 0;
