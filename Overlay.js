@@ -5,11 +5,12 @@ const TitleItem = {
 			default: "left"
 		},
 		title: String,
-		subtitle: String
+		subtitle: String,
+		big: Boolean
 	},
 	template: `
 		<div :class="side" class="card top" id="titleItem">
-			<div v-if="title !== ''" class="title">
+			<div v-if="title !== ''" class="title" :class="big ? 'big' : ''">
 				{{ title }}
 			</div>
 			<div v-if="subtitle !== ''" class="subtitle">
