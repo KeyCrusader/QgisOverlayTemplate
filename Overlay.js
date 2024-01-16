@@ -9,7 +9,7 @@ const TitleItem = {
 		big: Boolean
 	},
 	template: `
-		<div :class="[big ? 'big' : null, side]" class="card top" id="titleItem">
+		<div :class="side" class="card top" id="titleItem">
 			<div v-if="title !== ''" class="title">
 				{{ title }}
 			</div>
@@ -32,7 +32,7 @@ const MetadataItem = {
 		big: Boolean
 	},
 	template: `
-		<div :class="[big ? 'big' : null, side]" class="card top" id="metadataItem">
+		<div :class="side" class="card top" id="metadataItem">
 			{{ username }}</br>
 			{{ datetime }}</br>
 			{{ scale }}
@@ -52,7 +52,7 @@ const AttributionItem = {
 		big: Boolean
 	},
 	template: `
-		<div :class="[big ? 'big' : null, side]" class="card bottom" id="attributionItem">
+		<div :class="side" class="card bottom" id="attributionItem">
 			&copy; Crown copyright and database rights {{ year }} OS {{ license }}
 		</div>
 	`
@@ -71,7 +71,7 @@ const LegendItem = {
 		big: Boolean
 	},
 	template: `
-		<div :class="[big ? 'big' : null, side]" class="card bottom" id="legendItem">
+		<div :class="side" class="card bottom" id="legendItem">
 			<table>
 				<tr class="title">
 					<td colspan="2">{{title}}</td>
