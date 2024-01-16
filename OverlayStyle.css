@@ -78,6 +78,9 @@ div.bottom {
 .dark .card {
 	background-color: rgba(0, 0, 0, 0.75);
 }
+.big {
+	zoom: 2;
+}
 
 #locatorItem > div {
 	position: absolute; 
@@ -89,9 +92,6 @@ div.bottom {
 
 #titleItem > .title {
 	font-size: 28pt;
-}
-#titleItem > .title.big {
-	font-size: 56pt;
 }
 #titleItem > .subtitle {
 	font-size: 12pt;
