@@ -1,3 +1,19 @@
+:root {
+  --red: #ff3b30;
+  --orange: #ff9500;
+  --yellow: #ffcc00;
+  --green: #34c759;
+  --cyan: #5ac8fa;
+  --blue: #007aff;
+  --indigo: #5856d6;
+  --purple: #af52de;
+  --pink: #fc89ac;
+  --brown: #a2845e;
+  --white: #ffffff;
+  --grey: #8e8e93;
+  --black: #000000;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -137,80 +153,80 @@ div.bottom {
 }
 
 #legendItem span.red {
-	background-color: #ff3b30;
+	background-color: var(--red);
 }
 #legendItem svg.red {
-	fill: #ff3b30;
+	fill: var(--red);
 }
 #legendItem span.orange {
-	background-color: #ff9500;
+	background-color: var(--orange);
 }
 #legendItem svg.orange {
-	fill: #ff9500;
+	fill: var(--orange);
 }
 #legendItem span.yellow {
-	background-color: #ffcc00;
+	background-color: var(--yellow);
 }
 #legendItem svg.yellow {
-	fill: #ffcc00;
+	fill: var(--yellow);
 }
 #legendItem span.green {
-	background-color: #34c759;
+	background-color: var(--green);
 }
 #legendItem svg.green {
-	fill: #34c759;
+	fill: var(--green);
 }
 #legendItem span.cyan {
-	background-color: #5ac8fa;
+	background-color: var(--cyan);
 }
 #legendItem svg.cyan {
-	fill: #5ac8fa;
+	fill: var(--cyan);
 }
 #legendItem span.blue {
-	background-color: #007aff;
+	background-color: var(--blue);
 }
 #legendItem svg.blue {
-	fill: #007aff;
+	fill: var(--blue);
 }
 #legendItem span.indigo {
-	background-color: #5856d6;
+	background-color: var(--indigo);
 }
 #legendItem svg.indigo {
-	fill: #5856d6;
+	fill: var(--indigo);
 }
 #legendItem span.purple {
-	background-color: #af52de;
+	background-color: var(--purple);
 }
 #legendItem svg.purple {
-	fill: #af52de;
+	fill: var(--purple);
 }
 #legendItem span.pink {
-	background-color: #fc89ac;
+	background-color: var(--pink);
 }
 #legendItem svg.pink {
-	fill: #fc89ac;
+	fill: var(--pink);
 }
 #legendItem span.brown {
-	background-color: #a2845e;
+	background-color: var(--brown);
 }
 #legendItem svg.brown {
-	fill: #a2845e;
+	fill: var(--brown);
 }
 #legendItem span.white {
-	background-color: #ffffff;
+	background-color: var(--white);
 }
 #legendItem svg.white {
-	fill: #ffffff;
+	fill: var(--white);
 }
 #legendItem span.grey {
-	background-color: #8e8e93;
+	background-color: var(--grey);
 }
 #legendItem svg.grey {
-	fill: #8e8e93;
+	fill: var(--grey);
 }
 #legendItem span.black {
-	background-color: #000000;
+	background-color: var(--black);
 }
 #legendItem svg.black {
-	fill: #000000;
+	fill: var(--black);
 }
